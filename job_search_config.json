@@ -1,0 +1,107 @@
+{
+  "input_workbook": "IT_Companies_with_Career_Pages_updated.xlsx",
+  "outputs_dir": "outputs",
+  "history_workbook": "job_history.xlsx",
+  "scan": {
+    "request_timeout_seconds": 20,
+    "delay_between_companies_seconds": 0.2,
+    "worker_count": 8,
+    "batch_size": 40,
+    "max_companies": 0,
+    "max_jobs_per_company": 80,
+    "allowed_statuses": [
+      "Known",
+      "Verified",
+      "Likely - verify manually"
+    ],
+    "skip_url_contains": [
+      "google.com/search",
+      "bing.com/search"
+    ]
+  },
+  "locations": [
+    "India",
+    "Remote",
+    "Hybrid",
+    "Bangalore",
+    "Bengaluru"
+  ],
+  "role_focus": {
+    "primary": [
+      "java developer",
+      "backend developer",
+      "spring boot developer",
+      "software engineer java",
+      "associate software engineer java",
+      "junior java developer",
+      "software development engineer java"
+    ],
+    "secondary": [
+      "associate software engineer",
+      "associate engineer",
+      "junior software engineer",
+      "associate software developer",
+      "software engineer",
+      "software development engineer",
+      "backend software engineer"
+    ]
+  },
+  "skills": {
+    "required_preferred": [
+      "java"
+    ],
+    "strong_boost": [
+      "spring boot",
+      "spring mvc",
+      "rest api",
+      "rest apis",
+      "microservices",
+      "sql",
+      "mysql"
+    ],
+    "supporting": [
+      "python",
+      "karate framework",
+      "postman",
+      "git",
+      "github",
+      "maven",
+      "intellij idea"
+    ]
+  },
+  "experience": {
+    "include": [
+      "0-1 years",
+      "0 - 1 years",
+      "1-2 years",
+      "1 - 2 years",
+      "2-3 years",
+      "2 - 3 years",
+      "0-2 years",
+      "0 - 2 years",
+      "0-3 years",
+      "0 - 3 years",
+      "less than 3 years",
+      "below 3 years",
+      "entry level",
+      "fresher",
+      "junior",
+      "associate"
+    ],
+    "exclude": [
+      "3+ years",
+      "4+ years",
+      "5+ years",
+      "6+ years",
+      "7+ years",
+      "8+ years",
+      "senior",
+      "lead",
+      "principal",
+      "staff engineer",
+      "architect",
+      "manager",
+      "director"
+    ]
+  }
+}

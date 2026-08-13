@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Keep daily generated reports/logs out of git. Keep job_history.xlsx tracked
+# so GitHub Actions can compare jobs across days.
+outputs/*
+!outputs/.gitkeep
+!outputs/job_history.xlsx
+
+# Generated inspection sidecar from earlier workbook verification.
+*.inspect.ndjson
